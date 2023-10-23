@@ -1,0 +1,12 @@
+<h1>Items#show</h1>
+
+<h1>Item Details</h1>
+
+<h2><%= @item.title %></h2>
+<p><%= @item.description %></p>
+<p>Price: $<%= number_to_currency(@item.price) %></p>
+<p>Stock Quantity: <%= @item.stock_quantity %></p>
+
+<%= link_to 'Back to Items', items_path %>
+
+<p>Find me in app/views/items/show.html.erb</p>
