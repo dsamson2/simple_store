@@ -7,6 +7,7 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 require 'faker'
+require 'csv'
 
 # Create 676 fake products
 676.times do
